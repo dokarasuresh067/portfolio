@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dokara Suresh — Portfolio</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Google Fonts: Syne + DM Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <span class="brand-dot"></span>DS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="toggler-icon"><span></span><span></span><span></span></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link nav-cta" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero" class="hero-section d-flex align-items-center">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-blob hero-blob-1"></div>
+    <div class="hero-blob hero-blob-2"></div>
+    <div class="container position-relative">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-7 hero-content">
+          <p class="hero-eyebrow reveal-up">👋 Hello, I'm</p>
+          <h1 class="hero-name reveal-up delay-1">Suresh<br><span class="accent-text">Dokara</span></h1>
+          <p class="hero-role reveal-up delay-2">
+            <span class="role-badge">AI Engineer</span>
+            <span class="role-sep">·</span>
+            <span class="role-badge">Full-Stack Developer</span>
+            <span class="role-sep">·</span>
+            <span class="role-badge">Competitive Programmer</span>
+          </p>
+          <p class="hero-bio reveal-up delay-3">
+            B.Tech CSE student at Lendi Institute, passionate about building AI-powered systems,
+            solving hard problems, and shipping products that matter. SIH Finalist &amp; National Hackathon Winner.
+          </p>
+          <div class="hero-actions reveal-up delay-4">
+            <a href="#projects" class="btn btn-primary-custom">View Projects <i class="bi bi-arrow-right-short"></i></a>
+            <a href="#contact" class="btn btn-ghost-custom">Get in Touch</a>
+          </div>
+          <div class="hero-stats reveal-up delay-5">
+            <div class="stat-item">
+              <span class="stat-num">500+</span>
+              <span class="stat-label">Problems Solved</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">3</span>
+              <span class="stat-label">AI Projects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">8.88</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-flex justify-content-end">
+          <div class="hero-card-stack reveal-up delay-2">
+            <div class="floating-card fc-1">
+              <i class="bi bi-cpu"></i>
+              <span>NL2SQL Engine</span>
+            </div>
+            <div class="floating-card fc-2">
+              <i class="bi bi-trophy"></i>
+              <span>SIH Finalist 2025</span>
+            </div>
+            <div class="floating-card fc-3">
+              <i class="bi bi-code-slash"></i>
+              <span>Codeforces Pupil</span>
+            </div>
+            <div class="hero-avatar-ring">
+              <div class="hero-avatar-inner">
+                <span>DS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </a>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section-pad">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 reveal-left">
+          <div class="about-visual">
+            <div class="about-card-bg"></div>
+            <div class="about-info-grid">
+              <div class="aig-item">
+                <i class="bi bi-mortarboard"></i>
+                <div>
+                  <strong>B.Tech CSE</strong>
+                  <span>Lendi Institute</span>
+                </div>
+              </div>
+              <div class="aig-item">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <strong>Visakhapatnam</strong>
+                  <span>Andhra Pradesh, India</span>
+                </div>
+              </div>
+              <div class="aig-item">
+                <i class="bi bi-star"></i>
+                <div>
+                  <strong>CGPA: 8.88</strong>
+                  <span>2023 – 2027</span>
+                </div>
+              </div>
+              <div class="aig-item">
+                <i class="bi bi-github"></i>
+                <div>
+                  <strong>GitHub</strong>
+                  <span>dokarasuresh067</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 reveal-right">
+          <p class="section-eyebrow">About Me</p>
+          <h2 class="section-title">Crafting Smart Systems,<br>One Line at a Time</h2>
+          <p class="section-body">
+            I'm Dokara Suresh, a second-year Computer Science student driven by a deep curiosity for
+            Artificial Intelligence and full-stack development. I thrive at the intersection of algorithms
+            and real-world impact — whether that's building a RAG-powered SQL engine or an AI-driven
+            recruitment platform.
+          </p>
+          <p class="section-body">
+            Beyond academics, I'm an active competitive programmer with 500+ problems solved across
+            Codeforces, CodeChef, and LeetCode. I've represented my college at the Smart India Hackathon
+            National Finals and won national-level hackathons — proving I can build fast and think smart.
+          </p>
+          <div class="about-links mt-4">
+            <a href="mailto:dokarasuresh067@gmail.com" class="about-link-pill">
+              <i class="bi bi-envelope"></i> dokarasuresh067@gmail.com
+            </a>
+            <a href="https://linkedin.com/in/suresh-dokara-5483812a8" target="_blank" class="about-link-pill">
+              <i class="bi bi-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/dokarasuresh067" target="_blank" class="about-link-pill">
+              <i class="bi bi-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="section-pad section-dark">
+    <div class="container">
+      <div class="text-center mb-5 reveal-up">
+        <p class="section-eyebrow">What I Know</p>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+      <div class="row g-4">
+
+        <!-- Languages -->
+        <div class="col-md-6 col-lg-4 reveal-up delay-1">
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap"><i class="bi bi-code-square"></i></div>
+              <h5>Languages</h5>
+            </div>
+            <div class="skill-tags">
+              <span class="stag">C</span>
+              <span class="stag">C++</span>
+              <span class="stag">Java</span>
+              <span class="stag">Python</span>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-row"><span>Python</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+              <div class="skill-bar-row"><span>Java</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+              <div class="skill-bar-row"><span>C / C++</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="col-md-6 col-lg-4 reveal-up delay-2">
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap"><i class="bi bi-window"></i></div>
+              <h5>Frontend</h5>
+            </div>
+            <div class="skill-tags">
+              <span class="stag">HTML</span>
+              <span class="stag">CSS</span>
+              <span class="stag">Bootstrap</span>
+              <span class="stag">Streamlit</span>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-row"><span>HTML/CSS</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+              <div class="skill-bar-row"><span>Bootstrap</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div></div>
+              <div class="skill-bar-row"><span>Streamlit</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Databases -->
+        <div class="col-md-6 col-lg-4 reveal-up delay-3">
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap"><i class="bi bi-database"></i></div>
+              <h5>Databases</h5>
+            </div>
+            <div class="skill-tags">
+              <span class="stag">MySQL</span>
+              <span class="stag">ChromaDB</span>
+              <span class="stag">SQLAlchemy</span>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-row"><span>MySQL</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div></div>
+              <div class="skill-bar-row"><span>ChromaDB</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div></div>
+              <div class="skill-bar-row"><span>SQLAlchemy</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="68"></div></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI / ML -->
+        <div class="col-md-6 col-lg-4 reveal-up delay-1">
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap"><i class="bi bi-robot"></i></div>
+              <h5>AI / ML</h5>
+            </div>
+            <div class="skill-tags">
+              <span class="stag">LLMs</span>
+              <span class="stag">RAG</span>
+              <span class="stag">OpenAI</span>
+              <span class="stag">Groq</span>
+              <span class="stag">LLaMA</span>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-row"><span>LLM Integration</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+              <div class="skill-bar-row"><span>RAG Pipelines</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+              <div class="skill-bar-row"><span>Supervised / Unsupervised ML</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Core CS -->
+        <div class="col-md-6 col-lg-4 reveal-up delay-2">
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap"><i class="bi bi-diagram-3"></i></div>
+              <h5>Core CS</h5>
+            </div>
+            <div class="skill-tags">
+              <span class="stag">DSA</span>
+              <span class="stag">OOP</span>
+              <span class="stag">System Design</span>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-row"><span>Data Structures</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div></div>
+              <div class="skill-bar-row"><span>Algorithms</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+              <div class="skill-bar-row"><span>OOP</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="col-md-6 col-lg-4 reveal-up delay-3">
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap"><i class="bi bi-tools"></i></div>
+              <h5>Tools & Libraries</h5>
+            </div>
+            <div class="skill-tags">
+              <span class="stag">Git</span>
+              <span class="stag">GitHub</span>
+              <span class="stag">PyMuPDF</span>
+              <span class="stag">ReportLab</span>
+              <span class="stag">Ollama</span>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-row"><span>Git / GitHub</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+              <div class="skill-bar-row"><span>PDF Libraries</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="72"></div></div></div>
+              <div class="skill-bar-row"><span>Ollama / LLM tools</span><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services" class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5 reveal-up">
+        <p class="section-eyebrow">What I Offer</p>
+        <h2 class="section-title">Services</h2>
+      </div>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-md-6 col-lg-3 reveal-up delay-1">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-pencil-square"></i></div>
+            <h5>Technical Writing</h5>
+            <p>Clear, structured documentation, README files, API guides, and technical blog posts that communicate complex concepts with precision and simplicity.</p>
+            <div class="service-tags">
+              <span>Docs</span><span>README</span><span>Blogs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 reveal-up delay-2">
+          <div class="service-card service-card-accent">
+            <div class="service-icon"><i class="bi bi-cpu"></i></div>
+            <h5>GenAI Solutions</h5>
+            <p>End-to-end AI application development — from RAG pipelines and LLM integrations to semantic search systems and intelligent chatbots using modern AI models.</p>
+            <div class="service-tags">
+              <span>LLM</span><span>RAG</span><span>NLP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 reveal-up delay-3">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-globe"></i></div>
+            <h5>Freelance Web Dev</h5>
+            <p>Responsive, clean, and fast websites and web applications using modern frontend and backend technologies — tailored to your business needs and audience.</p>
+            <div class="service-tags">
+              <span>HTML/CSS</span><span>Bootstrap</span><span>Python</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 reveal-up delay-4">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-bar-chart-line"></i></div>
+            <h5>Data & Backend</h5>
+            <p>Database design, REST APIs, data pipelines, and backend logic built with Python, Java, MySQL — clean architecture that scales with your product.</p>
+            <div class="service-tags">
+              <span>MySQL</span><span>Python</span><span>APIs</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="section-pad section-dark">
+    <div class="container">
+      <div class="text-center mb-5 reveal-up">
+        <p class="section-eyebrow">What I've Built</p>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="row g-4">
+
+        <!-- Project 1: QuantumQuery.AI -->
+        <div class="col-lg-6 reveal-up delay-1">
+          <div class="project-card project-featured">
+            <div class="project-card-top">
+              <div class="project-num">01</div>
+              <div class="project-badges">
+                <span class="pbadge pbadge-ai">AI / LLM</span>
+                <span class="pbadge pbadge-hot">Featured</span>
+              </div>
+            </div>
+            <h4 class="project-title">QuantumQuery.AI</h4>
+            <p class="project-subtitle">RAG-Powered NL2SQL Engine</p>
+            <p class="project-desc">
+              Converts natural language questions into accurate SQL queries using a RAG pipeline.
+              Features schema-aware context retrieval, LLaMA-based SQL generation, and a real-time
+              Streamlit chat UI for querying databases conversationally.
+            </p>
+            <div class="project-highlights">
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> Modular RAG pipeline with ChromaDB embeddings</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> Schema retrieval + context-aware SQL generation</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> LLaMA (Ollama) for local LLM inference</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> Real-time Streamlit chat interface</div>
+            </div>
+            <div class="project-stack">
+              <span>Python</span><span>LLaMA</span><span>ChromaDB</span><span>Streamlit</span><span>Ollama</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: QuantumSprouts -->
+        <div class="col-lg-6 reveal-up delay-2">
+          <div class="project-card project-featured">
+            <div class="project-card-top">
+              <div class="project-num">02</div>
+              <div class="project-badges">
+                <span class="pbadge pbadge-ai">AI / Recruitment</span>
+                <span class="pbadge pbadge-new">New</span>
+              </div>
+            </div>
+            <h4 class="project-title">HireSense</h4>
+            <p class="project-subtitle">Natural Language Candidate Search</p>
+            <p class="project-desc">
+              AI-powered recruitment platform enabling recruiters to search candidates via natural language
+              instead of keyword filters. Uses LLMs to understand intent, delivering ranked, explainable
+              results — reducing hiring time and improving match accuracy.
+            </p>
+            <div class="project-highlights">
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> LLM-based semantic search (intent understanding)</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> Custom PageIndex — no traditional vector RAG</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> Explainable results with clear reasoning</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> Resume parsing from PDFs via PyMuPDF</div>
+            </div>
+            <div class="project-stack">
+              <span>Python</span><span>OpenAI</span><span>Groq</span><span>MySQL</span><span>Streamlit</span><span>PyMuPDF</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Feedback Analyzer -->
+        <div class="col-lg-6 reveal-up delay-3">
+          <div class="project-card">
+            <div class="project-card-top">
+              <div class="project-num">03</div>
+              <div class="project-badges">
+                <span class="pbadge pbadge-web">Full-Stack</span>
+              </div>
+            </div>
+            <h4 class="project-title">Feedback Analyzer</h4>
+            <p class="project-subtitle">Full-Stack Student Feedback Platform</p>
+            <p class="project-desc">
+              A complete student feedback management system with role-based access control, dynamic
+              reporting, and scalable data architecture. Handles validation, session management, and
+              aggregated insights for administrators.
+            </p>
+            <div class="project-highlights">
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> Java Servlets + JSP full-stack architecture</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> Secure role-based access control</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> Dynamic reporting with JSTL</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> MySQL-backed scalable data processing</div>
+            </div>
+            <div class="project-stack">
+              <span>Java</span><span>Servlets</span><span>JSP</span><span>MySQL</span><span>JSTL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: BHUJAL-BOT (SIH) -->
+        <div class="col-lg-6 reveal-up delay-4">
+          <div class="project-card">
+            <div class="project-card-top">
+              <div class="project-num">04</div>
+              <div class="project-badges">
+                <span class="pbadge pbadge-ai">AI / Chatbot</span>
+                <span class="pbadge pbadge-hot">SIH 2025</span>
+              </div>
+            </div>
+            <h4 class="project-title">BHUJAL-BOT</h4>
+            <p class="project-subtitle">Smart India Hackathon 2025 — National Finals</p>
+            <p class="project-desc">
+              Developed during SIH 2025 as a national finalist solution. An intelligent bot designed to
+              assist with groundwater-related queries and data access — combining NLP, data retrieval, and
+              government data integration to serve civic needs at scale.
+            </p>
+            <div class="project-highlights">
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> National Finals qualifier — SIH 2025</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> NLP-powered query understanding</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> Groundwater data retrieval &amp; reporting</div>
+              <div class="ph-item"><i class="bi bi-check2-circle"></i> Civic-scale AI solution design</div>
+            </div>
+            <div class="project-stack">
+              <span>Python</span><span>NLP</span><span>LLM</span><span>Data APIs</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACHIEVEMENTS ========== -->
+  <section id="achievements" class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5 reveal-up">
+        <p class="section-eyebrow">Recognition</p>
+        <h2 class="section-title">Achievements</h2>
+      </div>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-md-6 col-lg-4 reveal-up delay-1">
+          <div class="achieve-card">
+            <div class="achieve-icon"><i class="bi bi-mortarboard"></i></div>
+            <div class="achieve-badge">Finalist</div>
+            <h5>SIH 2025</h5>
+            <p>National Finals — Smart India Hackathon 2025. Built BHUJAL-BOT, an AI-powered groundwater information assistant.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-up delay-2">
+          <div class="achieve-card achieve-card-gold">
+            <div class="achieve-icon"><i class="bi bi-trophy"></i></div>
+            <div class="achieve-badge achieve-badge-gold">Winner 🏆</div>
+            <h5>Hack-2-Impact 2025</h5>
+            <p>National Hackathon winner at GVPCE — built LogSense AI. Competed and won against teams from across India.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-up delay-3">
+          <div class="achieve-card">
+            <div class="achieve-icon"><i class="bi bi-award"></i></div>
+            <div class="achieve-badge">Winner 🏆</div>
+            <h5>Code Battle — IIC</h5>
+            <p>Secured the top position in a competitive programming competition organized by the IIC cell.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-up delay-1">
+          <div class="achieve-card">
+            <div class="achieve-icon"><i class="bi bi-bar-chart"></i></div>
+            <div class="achieve-badge">Pupil</div>
+            <h5>Codeforces Rating</h5>
+            <p>Pupil on Codeforces with a max rating of 1217. Consistently solving algorithmic challenges at increasing difficulty.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-up delay-2">
+          <div class="achieve-card">
+            <div class="achieve-icon"><i class="bi bi-stars"></i></div>
+            <div class="achieve-badge">2★</div>
+            <h5>CodeChef Rating</h5>
+            <p>2-Star on CodeChef with a max rating of 1427. Active participant in monthly contests and long challenges.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-up delay-3">
+          <div class="achieve-card achieve-card-gold">
+            <div class="achieve-icon"><i class="bi bi-code-slash"></i></div>
+            <div class="achieve-badge achieve-badge-gold">500+</div>
+            <h5>Problems Solved</h5>
+            <p>500+ problems solved across Codeforces, CodeChef, and LeetCode — spanning DP, graphs, trees, and math.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section id="education" class="section-pad section-dark">
+    <div class="container">
+      <div class="text-center mb-5 reveal-up">
+        <p class="section-eyebrow">My Background</p>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 reveal-up delay-1">
+          <div class="edu-timeline">
+            <div class="edu-card">
+              <div class="edu-dot"></div>
+              <div class="edu-year">2023 – 2027</div>
+              <div class="edu-content">
+                <div class="edu-logo-wrap"><i class="bi bi-building"></i></div>
+                <div>
+                  <h5>B.Tech in Computer Science &amp; Engineering</h5>
+                  <p class="edu-inst">Lendi Institute of Engineering and Technology</p>
+                  <p class="edu-detail">Visakhapatnam, Andhra Pradesh</p>
+                  <div class="edu-cgpa">
+                    <span>CGPA</span>
+                    <strong>8.88 / 10</strong>
+                  </div>
+                  <div class="edu-subjects mt-3">
+                    <span>Data Structures & Algorithms</span>
+                    <span>Object-Oriented Programming</span>
+                    <span>Machine Learning</span>
+                    <span>Database Management</span>
+                    <span>Software Engineering</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5 reveal-up">
+        <p class="section-eyebrow">Let's Connect</p>
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-body mx-auto" style="max-width:520px;">Have a project, collaboration, or opportunity in mind? I'd love to hear from you. Drop a message or reach out directly.</p>
+      </div>
+      <div class="row g-5 justify-content-center align-items-start">
+
+        <!-- Contact Info -->
+        <div class="col-lg-4 reveal-left">
+          <div class="contact-info-stack">
+            <a href="mailto:dokarasuresh067@gmail.com" class="cinfo-card">
+              <div class="cinfo-icon"><i class="bi bi-envelope-at"></i></div>
+              <div>
+                <strong>Email</strong>
+                <span>dokarasuresh067@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+916303032964" class="cinfo-card">
+              <div class="cinfo-icon"><i class="bi bi-phone"></i></div>
+              <div>
+                <strong>Phone</strong>
+                <span>+91 6303032964</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/suresh-dokara-5483812a8" target="_blank" class="cinfo-card">
+              <div class="cinfo-icon"><i class="bi bi-linkedin"></i></div>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>suresh-dokara-5483812a8</span>
+              </div>
+            </a>
+            <a href="https://github.com/dokarasuresh067" target="_blank" class="cinfo-card">
+              <div class="cinfo-icon"><i class="bi bi-github"></i></div>
+              <div>
+                <strong>GitHub</strong>
+                <span>dokarasuresh067</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-6 reveal-right">
+          <div class="contact-form-wrap">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">Your Name</label>
+                <input type="text" class="form-control custom-input" placeholder="John Doe" />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Your Email</label>
+                <input type="email" class="form-control custom-input" placeholder="john@example.com" />
+              </div>
+              <div class="col-12">
+                <label class="form-label">Subject</label>
+                <input type="text" class="form-control custom-input" placeholder="Project inquiry / Collaboration / Other" />
+              </div>
+              <div class="col-12">
+                <label class="form-label">Message</label>
+                <textarea class="form-control custom-input" rows="5" placeholder="Tell me about your project or idea..."></textarea>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary-custom w-100" id="sendBtn">
+                  Send Message <i class="bi bi-send"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="brand-dot"></span>DS
+          <p>Building intelligent systems with purpose.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-socials">
+          <a href="https://github.com/dokarasuresh067" target="_blank"><i class="bi bi-github"></i></a>
+          <a href="https://linkedin.com/in/suresh-dokara-5483812a8" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:dokarasuresh067@gmail.com"><i class="bi bi-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Dokara Suresh. Crafted with precision &amp; care.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
